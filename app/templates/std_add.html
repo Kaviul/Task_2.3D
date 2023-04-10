@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Student Add</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{% static 'index.css'%}">
+
+<body>
+
+    <form action="" method = "post" name="add_std">
+        {%csrf_token %}
+        {{form}}
+   
+    <input type="Submit">
+    </form>
+
+<div class="creator">
+ <h2>Designed by:</h2>
+ <h3>MD KAVIUL HOSSAIN</h3>
+ <h3>ID: S222340498</h3>
+</div>
+
+</body>
+</html>
